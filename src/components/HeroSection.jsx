@@ -35,14 +35,14 @@ export default function HeroSection() {
         </div>
 
         <div className="hero-heading-wrap">
-          <div className="section-kicker">
+          {/* <div className="section-kicker">
             <span className="color-squares" aria-hidden="true">
               <i />
               <i />
               <i />
             </span>
             <span>Portfolio / 2026</span>
-          </div>
+          </div> */}
           <h1 id="hero-title">
             {portfolio.name.split(' ').map((part, index) => (
               <span className="hero-name-line" key={part + index}>
@@ -66,15 +66,15 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="hero-disciplines" aria-label="Areas of focus">
+        {/* <div className="hero-disciplines" aria-label="Areas of focus">
           <span>Thoughtful design</span>
           <span>Useful technology</span>
           <span>Careful details</span>
-        </div>
+        </div> */}
       </div>
 
       <div className="hero-visual">
-        <div className="hero-visual__index">01 / Profile</div>
+        {/* <div className="hero-visual__index">01 / Profile</div> */}
         <div className="portrait-frame">
           <span className="portrait-frame__yellow" />
           <span className="portrait-frame__blue" />
@@ -85,7 +85,7 @@ export default function HeroSection() {
             <span>{portfolio.location}</span>
           </div>
         </div>
-        <span className="hero-visual__note">Independent / Open to collaboration</span>
+        {/* <span className="hero-visual__note">Independent / Open to collaboration</span> */}
       </div>
     </section>
   )

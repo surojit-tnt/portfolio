@@ -2,13 +2,13 @@
 // through the layout components. Replace every sample name, link, and description.
 export const portfolio = {
   name: 'Surojit Tanti',
-  initials: 'YN',
+  // initials: 'YN',
   role: 'Fullstack Engineer / System Designer',
   location: 'Kolkata, India',
   availability: 'Available for select opportunities',
   email: 'surojittanti128@gmail.com',
   // Add a profile image at public/profile.jpg and change this value to '/profile.jpg'.
-  photo: '',
+  photo: '/profile.jpeg',
   introduction:
     'I turn thoughtful ideas into useful digital experiences. Add a few sentences about your work, the people you help, and the kind of problems you enjoy solving.',
 }
@@ -18,33 +18,33 @@ export const experience = [
   {
     period: 'Oct-2026 — NOW',
     role: 'Backend Engineer',
-    company: 'ITS Deligh',
+    company: 'ITSDELIGH',
     summary:
-      'Describe what you own, who you work with, and the difference your work makes.',
+      'I have experience in Typescript, who you work with, and the difference your work makes.',
     impact: 'Add a result',
     focus: ['Your skill', 'Your process', 'Your impact'],
     color: 'yellow',
   },
-  {
-    period: '202X — 202X',
-    role: 'A previous role',
-    company: 'Company or client',
-    summary:
-      'Share a useful detail about a challenge you handled or a product you helped ship.',
-    impact: 'Add a result',
-    focus: ['Your skill', 'Your process', 'Your impact'],
-    color: 'blue',
-  },
-  {
-    period: '202X — 202X',
-    role: 'Another role or milestone',
-    company: 'Company, client, or project',
-    summary:
-      'Use this space for freelance work, a major collaboration, or an earlier position.',
-    impact: 'Add a result',
-    focus: ['Your skill', 'Your process', 'Your impact'],
-    color: 'red',
-  },
+  // {
+  //   period: '202X — 202X',
+  //   role: 'A previous role',
+  //   company: 'Company or client',
+  //   summary:
+  //     'Share a useful detail about a challenge you handled or a product you helped ship.',
+  //   impact: 'Add a result',
+  //   focus: ['Your skill', 'Your process', 'Your impact'],
+  //   color: 'blue',
+  // },
+  // {
+  //   period: 'Oct 2026 — Pesent',
+  //   role: 'Another role or milestone',
+  //   company: 'ITSDELIGH, client, Gym Software, etc.',
+  //   summary:
+  //     'Use this space for freelance work, a major collaboration, or an earlier position.',
+  //   impact: 'Add a result',
+  //   focus: ['Your skill', 'Your process', 'Your impact'],
+  //   color: 'red',
+  // },
 ]
 
 // Each project card is a link. Replace the example.com URL with your live project,
@@ -57,11 +57,11 @@ export const projects = [
     title: 'Project One — Product Dashboard',
     description:
       'Introduce the project, explain the problem it solves, and describe your role in making it.',
-    tags: ['Product design', 'React', 'Your tool'],
+    tags: ['Product design', 'React', 'Redis'],
     metric: 'Add a meaningful outcome',
     artwork: 'workflow',
     color: 'yellow',
-    url: 'https://example.com/project-one',
+    url: 'https://www.linkedin.com/in/surojit-tanti-859b17337',
   },
   {
     number: '02',
@@ -74,7 +74,7 @@ export const projects = [
     metric: 'Add a meaningful outcome',
     artwork: 'analytics',
     color: 'blue',
-    url: 'https://example.com/project-two',
+    url: 'https://www.linkedin.com/in/surojit-tanti-859b17337',
   },
   {
     number: '03',
@@ -87,7 +87,7 @@ export const projects = [
     metric: 'Add a meaningful outcome',
     artwork: 'spatial',
     color: 'red',
-    url: 'https://example.com/project-three',
+    url: 'https://github.com/surojit-tnt',
   },
 ]
 
