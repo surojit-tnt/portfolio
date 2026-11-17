@@ -96,3 +96,9 @@ export const socialLinks = [
   { label: 'LinkedIn', url: 'https://www.linkedin.com/in/surojit-tanti-859b17337' },
   { label: 'GitHub', url: 'https://github.com/surojit-tnt' },
 ]
+
+export const Links = {
+  linkedin: 'https://www.linkedin.com/in/surojit-tanti-859b17337',
+  github: 'https://github.com/surojit-tnt'
+
+}
