@@ -4,6 +4,7 @@ import ExperienceSection from './components/ExperienceSection'
 import ProjectsSection from './components/ProjectsSection'
 import ContactSection from './components/ContactSection'
 import SiteFooter from './components/SiteFooter'
+import Socials from './components/Socials'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
+        <Socials />
       </main>
       <SiteFooter />
     </div>

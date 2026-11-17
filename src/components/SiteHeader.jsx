@@ -20,7 +20,7 @@ export default function SiteHeader() {
       <div className="site-header__inner page-shell">
         <a className="wordmark" href="#top" onClick={closeMenu} aria-label="Back to top">
           <span>{portfolio.initials}</span>
-          <span className="wordmark__divider">//</span>
+          {/* <span className="wordmark__divider"></span> */}
           <span className="wordmark__name">{portfolio.name}</span>
         </a>
 
