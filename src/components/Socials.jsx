@@ -14,7 +14,7 @@ const Socials = () => {
         <div className="  flex justify-center gap-2 h-full w-full ">
             <Socialicons url={Links.linkedin}  pic={linkedin} name="Linkedin"/>
             <Socialicons url={Links.github } name="Github"  pic={github} />
-            <Socialicons url={Links.github } name="Github"  pic={leet} />
+            <Socialicons url={Links.leetcode } name="Leetcode"  pic={leet} />
         
         </div>
     </section>

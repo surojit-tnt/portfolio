@@ -99,6 +99,7 @@ export const socialLinks = [
 
 export const Links = {
   linkedin: 'https://www.linkedin.com/in/surojit-tanti-859b17337',
-  github: 'https://github.com/surojit-tnt'
+  github: 'https://github.com/surojit-tnt',
+  leetcode:"https://leetcode.com/u/surojit_tnt/"
 
 }
